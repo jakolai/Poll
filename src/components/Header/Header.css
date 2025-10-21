@@ -1,0 +1,49 @@
+ul li 
+{
+  list-style: none;
+  display: inline;
+  margin: 0px 40px 0px 0px;
+  padding: 6px;
+  border-radius: 6px;
+ transition: background-color 1s ease-out, transform 1s ease-out,color 1s;
+  border: 1px solid rgb(43, 43, 43);
+  background-color: rgba(106, 48, 160, 0.152);
+}
+ul li:hover
+{
+background-color: rgb(132, 103, 146);
+  transform: scale(1.1);
+ color: aliceblue;
+ 
+}
+
+
+ul{
+  position: absolute;
+  margin-right: 8px;
+  right: 8px;
+  top: 8px;
+  
+}
+
+header
+{
+  top: 10px;
+  background-color: rgba(29, 29, 29, 0.716);
+  padding: 5px;
+  border-radius: 5px;
+}
+img
+{
+  margin-top: 8px;
+  margin-left: 20px;
+  transition: transform .5s;
+}
+
+img:hover
+{
+  transform:scale(1.3);
+}
+
+
+
