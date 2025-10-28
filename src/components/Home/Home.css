@@ -1,0 +1,24 @@
+.hero
+{
+   
+ 
+    text-align: center;
+    background-color: rgb(86, 85, 85);
+    border-radius: 5px;
+    padding: 25px;
+    
+    
+}
+
+.hero span{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/spectrum.svg);
+  background-repeat: repeat-x;
+  background-size: 10vw 0.2em;
+  background-position: left bottom 5px;
+  
+  background-position-x: var(--scrollPos);   
+}
+
+
+
+     
